@@ -4,9 +4,9 @@
 
 // 2, 4 -> 16
 
-int A = Promt("Введите А");
-int B = Promt("Введите Б");
-System.Console.WriteLine(Math.Pow(A, B));
+int a = Promt("Введите А");
+int b = Promt("Введите Б");
+System.Console.WriteLine(Math.Pow(a, b));
 int Promt(string message)
 {
     System.Console.WriteLine(message);
